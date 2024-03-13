@@ -1,0 +1,91 @@
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.5rem
+}
+img{
+    display: block;
+}
+.container >img{
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.container>div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+    word-wrap: break-word;
+
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    position: relative;
+  }
+  .rb{
+    position: absolute;
+    top: 144px;
+    left: 590px;
+  }
+  .rsei{
+    position: absolute;
+    top: 240px;
+    left: 711px;
+  }
+  .ct{
+    position: absolute;
+    top: 234px;
+    left: 871px;
+  }
+  .cdl{
+    position: absolute;
+    top: 115px;
+    left: 913px;
+  }
+  .csei{
+    position: absolute;
+    top: 113px;
+    left: 727px;
+  }
+  .war{
+    position: absolute;
+    top: 234px;
+    left: 978px;
+  }
+  .main img{
+    width: 500px;
+  }
+  .metaData{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
